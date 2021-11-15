@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  min-height: 5em;
+  align-items: center;
+  font-size: 1.5rem;
+}
+main {
+  padding: 2rem;
+  margin: 1rem;
+}
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.img-des {
+  width: 10rem;
+  height: 7rem;
+  /* margin: 5%; */
+  border-radius: 10px;
+}

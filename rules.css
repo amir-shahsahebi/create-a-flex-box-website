@@ -49,6 +49,8 @@ p {
 }
 .section2 div {
   font-size: 1rem;
-  border-left: black solid 3px;
+  border-left: black solid 2px;
   padding-left: 5%;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }

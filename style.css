@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
 }
+nav a:hover {
+  background-color: black;
+  color: white;
+}
 header form {
   position: absolute;
   right: 0%;
@@ -57,3 +61,23 @@ border: red double 5px;
   width: 14rem;
   height: 20rem;
 }  */
+.top {
+  display: flex;
+  width: 4rem;
+  height: 4rem;
+  background-color: rgba(255, 0, 0, 0.644);
+  position: fixed;
+  left: -2rem;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 0.5rem;
+}
+.top:hover {
+  background-color: black;
+  color: white;
+}
+footer:hover {
+  background-color: black;
+  color: white ;
+}

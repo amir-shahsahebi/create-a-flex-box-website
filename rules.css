@@ -17,9 +17,10 @@
   justify-content: space-around;
   box-shadow: 10px 5px 5px black;
 }
-p {
+p:not(footer p) {
   font-size: 2rem;
 }
+
 .more {
   background-color: rgb(238, 179, 103);
   width: 5rem;
@@ -54,3 +55,4 @@ p {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
+

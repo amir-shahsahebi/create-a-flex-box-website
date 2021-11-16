@@ -2,6 +2,24 @@
   margin: 0;
   padding: 0;
 }
+header form {
+  position: absolute;
+  right: 0%;
+}
+form button {
+  background-color: black;
+  color: white;
+  height: 2rem;
+  width: 2rem;
+}
+form input {
+  height: 2rem;
+  width: 15rem;
+}
+form input:hover {
+  background-color: black;
+  color:white;
+}
 nav {
   display: flex;
   justify-content: space-around;
@@ -23,3 +41,19 @@ main {
   /* margin: 5%; */
   border-radius: 10px;
 }
+footer {
+  display: flex;
+  justify-content: center;
+}
+footer > p {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+img:hover {
+border-radius: 50%;
+border: red double 5px;
+}
+/* div:hover {
+  width: 14rem;
+  height: 20rem;
+}  */

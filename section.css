@@ -6,7 +6,9 @@
 }
 .div-n {
   width: 12rem;
-  height: 18rem;
+  /* width: 15%; */
+  /* height: 20%; */
+  height: 17em;
   background-color: rgb(167, 161, 161);
   /* border: black solid 1.5px; */
   border-radius: 20px;
@@ -15,6 +17,8 @@
   align-items: center;
   justify-content: center;
   box-shadow: 10px 5px 5px black;
+  margin: 2%;
+
 }
 div > p {
   font-size: 1.5rem;
@@ -30,34 +34,21 @@ div > p {
 }
 table {
 border: black solid 2px;
-}
-/* thead, tbody {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} */
-
-th {
-  justify-items: center;
-  align-items: center;
-  /* border: black solid 2px; */
-  width: 12rem;
+display: flex;
+flex-flow: column wrap;
+width: 80%;
 }
 tr {
   display: flex;  
 }
-/* td {
-  justify-self: center;
-  align-self: center;
-  border: black solid 1px;
-  width: 12rem;
-} */
 
+thead th {
+  width: 100%;
+}
 tbody td {
   text-align: center;
   border: black solid 1px;
-  width: 12rem;
+  width: 100%;
 }
 tbody tr:nth-child(odd) {
     background-color: rgb(181, 181, 192);

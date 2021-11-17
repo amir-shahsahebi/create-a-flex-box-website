@@ -2,7 +2,8 @@
   padding: 3rem;
   border: solid black 1px;
   border-radius: 1rem;
-  display: flexbox;
+  display: flex;
+  flex-direction: column;
 }
 .section1 p {
   margin: 1rem;
@@ -11,6 +12,7 @@
 }
 .section2 {
   display: flex;
+  flex-wrap: wrap;
   margin-top: 3rem;
   justify-content: space-around;
 }
@@ -34,7 +36,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  box-shadow: 10px 5px 5px black; ;
+  box-shadow: 10px 5px 5px black;
+  margin: 2%;
 }
 div > p {
   font-size: 2rem;

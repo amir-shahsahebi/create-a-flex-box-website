@@ -15,7 +15,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  box-shadow: 10px 5px 5px black; ;
+  box-shadow: 10px 5px 5px black;
+  margin: 2% ;
 }
 div > p {
   font-size: 2rem;

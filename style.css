@@ -22,7 +22,7 @@ form input {
 }
 form input:hover {
   background-color: black;
-  color:white;
+  color: white;
 }
 nav {
   display: flex;
@@ -40,9 +40,11 @@ main {
   font-weight: bold;
 }
 .img-des {
+  /* width: 70%;
+  height: 70%; */
   width: 10rem;
   height: 7rem;
-  /* margin: 5%; */
+  margin: 5%;
   border-radius: 10px;
 }
 footer {
@@ -54,8 +56,8 @@ footer > p {
   padding-right: 2%;
 }
 img:hover {
-border-radius: 50%;
-border: red double 5px;
+  border-radius: 50%;
+  border: red double 5px;
 }
 /* div:hover {
   width: 14rem;
@@ -79,5 +81,18 @@ border: red double 5px;
 }
 footer:hover {
   background-color: black;
-  color: white ;
+  color: white;
+}
+@media (max-width: 524px) {
+  /* div, header, footer , img , p , a, form , table{
+    transform: scale(0.88);
+  } */
+  html {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 426px) {
+  table {
+    font-size: 0.75rem;
+  }
 }
